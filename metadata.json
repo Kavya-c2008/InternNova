@@ -1,0 +1,6 @@
+{
+  "name": "Internova – Responsive Internship Board",
+  "description": "Find internships, build experience, and start your career. Discover verified opportunities, explore domains, and track your applications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
