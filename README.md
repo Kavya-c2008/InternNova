@@ -157,41 +157,7 @@ npm run preview
 
 ## Deployment
 
-### Deploying to Vercel
-
-This application is ready to deploy directly to [Vercel](https://vercel.com/) as a static Single Page Application (SPA).
-
-#### Method 1: Deploy via Vercel Dashboard (Recommended)
-
-1. Push your project to a GitHub repository.
-2. Log in to [Vercel](https://vercel.com/) and click **"Add New..." → "Project"**.
-3. Import your GitHub repository.
-4. Vercel will automatically detect the settings:
-   - **Framework Preset:** `Vite`
-   - **Root Directory:** `./`
-   - **Build Command:** `npm run build`
-   - **Output Directory:** `dist`
-   - **Install Command:** `npm install`
-5. Click **"Deploy"**.
-
-#### Method 2: Deploy via Vercel CLI
-
-```bash
-npm i -g vercel
-vercel
-```
-
-Follow the prompts and select default options. When prompted for production deployment, run:
-
-```bash
-vercel --prod
-```
-
-#### SPA Routing on Vercel
-
-The included `vercel.json` file ensures that all routes (such as `/internships`, `/applications`, `/saved`, `/dashboard`, `/profile`, and `/resume-analyzer`) route back to `index.html`, preventing 404 errors when refreshing any page.
-
----
+https://intern-nova-delta.vercel.app/
 
 ## Developer
 
